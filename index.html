@@ -437,72 +437,73 @@
         </div>
       </div>
     </footer>
-    < class="modal is-open">
-    <div class="modal-content">
-      <button class="modal-close" type="button">
-        <svg class="icon">
-          <use href="./images/icons.svg#icon-close"></use>
-        </svg>
-      </button>
-      <p>Leave your contacts and we will call you back</p>
-      <form class="modal-form" name="callback" autocomplete="off">
-        <label class="modal-label" for="name"
-          >Name
-          <div class="input-wrapper">
-            <svg class="icon">
-              <use href="./images/icons.svg#icon-user"></use>
-            </svg>
-            <input class="form-input" type="text" name="name" />
+    <div class="modal is-open">
+      <div class="modal-content">
+        <button class="modal-close" type="button">
+          <svg class="icon">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p>Leave your contacts and we will call you back</p>
+        <form class="modal-form" name="callback" autocomplete="off">
+          <label class="modal-label" for="name"
+            >Name
+            <div class="input-wrapper">
+              <svg class="icon">
+                <use href="./images/icons.svg#icon-user"></use>
+              </svg>
+              <input class="form-input" type="text" name="name" />
+            </div>
+          </label>
+
+          <label class="modal-label" for="phone"
+            >Phone
+            <div class="input-wrapper">
+              <svg class="icon">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+              <input class="form-input" type="tel" name="phone" />
+            </div>
+          </label>
+
+          <label class="modal-label" for="email"
+            >E-mail
+            <div class="input-wrapper">
+              <svg class="icon">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+              <input class="form-input" type="email" name="email" />
+            </div>
+          </label>
+
+          <label class="modal-label" for="comment"
+            >Comment
+            <div class="input-wrapper">
+              <textarea
+                class="form-textarea"
+                name="comment"
+                placeholder="Text input"
+              ></textarea>
+            </div>
+          </label>
+
+          <div class="checkbox-wrapper">
+            <input
+              type="checkbox"
+              class="checkbox-input"
+              id="privacy"
+              name="privacy"
+              required
+            />
+            <label for="privacy" class="checkbox-label"
+              >I accept the terms and conditions of the
+              <span class="privacy-policy">Privacy Policy</span></label
+            >
           </div>
-        </label>
 
-        <label class="modal-label" for="phone"
-          >Phone
-          <div class="input-wrapper">
-            <svg class="icon">
-              <use href="./images/icons.svg#icon-phone"></use>
-            </svg>
-            <input class="form-input" type="tel" name="phone" />
-          </div>
-        </label>
-
-        <label class="modal-label" for="email"
-          >E-mail
-          <div class="input-wrapper">
-            <svg class="icon">
-              <use href="./images/icons.svg#icon-email"></use>
-            </svg>
-            <input class="form-input" type="email" name="email" />
-          </div>
-        </label>
-
-        <label class="modal-label" for="comment"
-          >Comment
-          <div class="input-wrapper">
-            <textarea
-              class="form-textarea"
-              name="comment"
-              placeholder="Text input"
-            ></textarea>
-          </div>
-        </label>
-
-        <div class="checkbox-wrapper">
-          <input
-            type="checkbox"
-            class="checkbox-input"
-            id="privacy"
-            name="privacy"
-            required
-          />
-          <label for="privacy" class="checkbox-label"
-            >I accept the terms and conditions of the
-            <span class="privacy-policy">Privacy Policy</span></label
-          >
-        </div>
-
-        <button type="submit" class="submit-btn">Send</button>
-      </form>
+          <button type="submit" class="submit-btn">Send</button>
+        </form>
+      </div>
     </div>
   </body>
 </html>
